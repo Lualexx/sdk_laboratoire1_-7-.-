@@ -1,27 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using System;
+using ConversionAphabetiqueToNote;
 
-namespace _1.SDK_Laboratoire1
+while (true)
 {
-    internal class Program
+    Console.WriteLine("\t\t\t\t\t\tConvertiseur alphabetique! ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t A = La ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t B = Si ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t C = Do ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t D = Re ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t E = Mi ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t F = Fa ");
+    Console.WriteLine("\n\t\t\t\t\t\t\t G = Sol ");
+    Console.WriteLine("\n\t\t\t\t\t\tCliquer 'Enter' pour commencer");
+    var imput = Console.ReadLine();
+    if (imput?.ToUpperInvariant() == "Note");
     {
-        static void Main(string[] args)
+        while (true)
         {
-            Console.WriteLine("\t\t\t\t\t\tConvertiseur alphabetique! ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t A = La ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t B = Si ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t C = Do ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t D = Re ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t E = Mi ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t F = Fa ");
-            Console.WriteLine("\n\t\t\t\t\t\t\t G = Sol ");
-            Console.Write("\n\t\t\t\t\t\tEcrire votre choix: ");
-            string choix = Console.ReadLine();
-            var input = Console.ReadLine();
-            Console.WriteLine("\t\t\t\t\t\tTu as choisi: " + choix);
+            Console.Write("\n\t\t\t\t\t\tEcrivez votre choix: ");
+            ConsoleKeyInfo keyPress = Console.ReadKey(intercept: true);
+            string strValeurPress = keyPress.KeyChar.ToString();
+            ConversionAphabetiqueToNote.ConversionAphabetiqueToNote catn = new ConversionAphabetiqueToNote.ConversionAphabetiqueToNote();
+            string note = catn.Format(strValeurPress);
+            Console.WriteLine($"\n\n\t\t\t\t\t\t\tNote: {note}");
+            
+
         }
+
+   
     }
+
 }
+
+
