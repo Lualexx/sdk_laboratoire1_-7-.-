@@ -1,8 +1,0 @@
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\bin\Debug\_1.SDK_Laboratoire1.exe.config
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\bin\Debug\_1.SDK_Laboratoire1.exe
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\bin\Debug\_1.SDK_Laboratoire1.pdb
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\obj\Debug\1. SDK_Laboratoire1.csproj.AssemblyReference.cache
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\obj\Debug\1. SDK_Laboratoire1.csproj.SuggestedBindingRedirects.cache
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\obj\Debug\1. SDK_Laboratoire1.csproj.CoreCompileInputs.cache
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\obj\Debug\_1.SDK_Laboratoire1.exe
-D:\SDK\1. SDK_Laboratoire1\1. SDK_Laboratoire1\1. SDK_Laboratoire1\obj\Debug\_1.SDK_Laboratoire1.pdb
